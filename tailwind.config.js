@@ -16,7 +16,7 @@ module.exports = {
         }
       },
       animation: {
-        wiggle: 'wiggle 1s ease-in-out infinite',
+        'spin-slow' : 'spin 8s linear infinite',
       }
     }
   },

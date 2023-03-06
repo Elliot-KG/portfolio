@@ -2,8 +2,8 @@ import * as React from "react"
 
 export function Sun() {
     return (
-        <div className="stroke-white stroke-[20px] fill-none animate-wiggle">
-            <svg width="200px" height="200px" viewBox="0 0 1000 1000" >
+        <div className="linecap-round stroke-white stroke-[20px] fill-none origin-center">
+            <svg className="animate-spin-slow" width="200px" height="200px" viewBox="0 0 1000 1000" >
                 <circle cx="500.74" cy="499.12" r="74.5" />
                 <path d="M673.24,564.62c-12-8-39-1-32,24s25,18.02,32,15.51c0,0-38,13.49-12,37.49s59.38-11.01,70.19-38.5" />
                 <path d="M592.24,579.63c0,0,31,19.99,49-6.01" />

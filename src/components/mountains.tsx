@@ -3,7 +3,7 @@ import * as React from "react"
 export const Mountains = () => (
 	<React.StrictMode>
 		<div className="">
-			<svg  className="stroke-red-400 fill-none stroke-[10px]" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+			<svg  className="linecap-round stroke-white fill-none stroke-[10px]" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 				viewBox="0 0 964 262">
 					<g >
 						<path id="Path"  d="M40.5,223.6c79-111.6,129.7-172.3,152-182.3c33.5-15,27,30.8,53,30.8s45.4,24.1,63,58.9

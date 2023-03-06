@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .linecap-round{
+    stroke-linecap: round;
+  }
+
+  .linecap-butt{
+    stroke-linecap: butt;
+  }
+}

@@ -1,0 +1,23 @@
+// enum Skill {
+//     Adobe,
+//     Figma,
+//     React,
+//     Vue,
+//     Next,
+//     Tailwin,
+//     Gatsby,
+//     Typescript,
+//     Javascript,
+//     Python,
+
+// }
+
+
+
+[
+    {
+        "skill" : "Adobe",
+        "name" : "name",
+        "svg" : "image"
+    }
+]
