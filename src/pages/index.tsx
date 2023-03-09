@@ -7,15 +7,15 @@ import { Projects } from "../components/projects"
 import { SkillsBar } from "../components/skillsBar"
 
 const IndexPage: React.FC<PageProps> = () => (
-  <main className="bg-night w-full h-full">
-    <Sun />
-    <Birds />
-    <Mountains />
-    <h1 className="p-10 text-white text-4xl my-14">Hi, I&rsquo;m Elliot—a Developer, Illustrator, and Motion Designer passionate about creating beautiful, human-centered experiences.</h1>
-    <SkillsBar />
-    <Projects />
-
-  </main>
+  <React.StrictMode>
+    <main className="bg-night w-full h-full">
+      <Birds />
+      <Sun />
+      <Mountains />
+      <h1 className="p-10 text-white text-4xl my-14">Hi, I&rsquo;m Elliot—a Developer, Illustrator, and Motion Designer passionate about creating beautiful, human-centered experiences.</h1>
+      <Projects />
+    </main>
+  </React.StrictMode>
 )
 
 export default IndexPage
